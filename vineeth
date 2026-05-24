@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Gallery image slider</title>
+    </head>
+    <body>
+        <style>
+            h1{
+                color:red;
+            }
+            h3{
+                color:rgb(5, 5, 95);
+            }
+            body{
+                background-color:green;
+            }
+            </style>
+        <div class="gallery">
+            <div class="swiper gallery-cards">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                                <h1>Image gallery</h1>
+                            <img src="D:\Pictures\Saved Pictures\burj_khalifa.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Burj Khalifa</h3>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="D:\Pictures\Saved Pictures\statue of unity.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Statue of Unity</h3>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="D:\Pictures\Saved Pictures\jog falls.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Jog falls</h3>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="D:\Pictures\Saved Pictures\Jaipur palace.jpeg" width="500" height="500">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Jaipur palace</h3>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="D:\Pictures\Saved Pictures\Mysore_Palace.jpg" width="500" height="500">
+                            <div class="gallery__data">
+                                <h3 class>Mysore palace</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery__overflow">
+                <div class="swiper gallery-thumbs">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="D:\Pictures\Saved Pictures\Goa-beach.jpeg" width="500" height="500" class="gallery__thumbnail-img">
+                                <h3 class="gallery__title">Goa Beach</h3>
+                            </div>
+                        </div>    
+        <script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+    </body>
+</html>
